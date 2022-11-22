@@ -21,13 +21,10 @@ Then the library is now able to be import:
 from TAC.calc_g import stft, tac_v8
 ```
 
-stft(configuration used in the study):
+Calculate TAC with the configuration used in the study:
 ```
 Obs = stft(data, size=1024, shift=256)[np.newaxis,:,:]
-```
 
-tac_v8(configuration used in the study):
-```
 G_block = tac_v8(
           Obs.transpose(2, 0, 1),
           taps=16,
