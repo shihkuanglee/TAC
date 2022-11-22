@@ -30,7 +30,8 @@ G_block = tac_v8(
           taps=16,
           delay=2,
           iterations=3,
-          psd_context=0)
+          psd_context=0,
+          statistics_mode='full')
 ```
 
 ## Citation Information
