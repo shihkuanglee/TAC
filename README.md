@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 Add submodule to your repository:
 ```
-git submodule add git@github.com:shihkuanglee/TAC.git
+git submodule add https://github.com/shihkuanglee/TAC.git
 ```
 
 Then the library is now able to be import:
