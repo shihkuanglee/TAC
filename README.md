@@ -2,7 +2,7 @@
 
 #### This repository provides the software implementation in calculating the temporal autocorrelation of speech as the speech feature for replayed speech detection system, it is used in the study:
 
-Shih-Kuang Lee, Yu Tsao, and Hsin-Min Wang, “[Detecting Replay Attacks Using Single-Channel Audio: The Temporal Autocorrelation of Speech](https://homepage.iis.sinica.edu.tw/papers/whm/25385-F.pdf),” in 2022 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) (APSIPA ASC 2022), Chiang Mai, Thailand, Nov. 2022.
+Shih-Kuang Lee, Yu Tsao, and Hsin-Min Wang, “[Detecting Replay Attacks Using Single-Channel Audio: The Temporal Autocorrelation of Speech](http://www.apsipa.org/proceedings/2022/APSIPA%202022/ThPM2-4/1570818355.pdf),” in 2022 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) (APSIPA ASC 2022), Chiang Mai, Thailand, Nov. 2022.
 
 ## Dependencies
 ```
@@ -33,6 +33,10 @@ G_block = tac_v8(
           psd_context=0,
           statistics_mode='full')
 ```
+
+## Example
+
+https://github.com/shihkuanglee/RD-LCNN/blob/256113e2e232ef85a17e6a8458f8e8eb646e1045/prepare_TAC.py
 
 ## Citation Information
 
