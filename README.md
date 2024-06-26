@@ -11,20 +11,12 @@ pip install -r requirements.txt
 
 ## Usage
 
-Add submodule to your repository:
-```
-git submodule add https://github.com/shihkuanglee/TAC.git
-```
-
-Then the library is now able to be import:
-```
-from TAC.calc_g import stft, tac_v8
-```
-
 Calculate TAC with the configuration used in the study:
 ```
+from nara_wpe.utils import stft
 Obs = stft(data, size=1024, shift=256)[np.newaxis,:,:]
 
+from TAC.calc_g import tac_v8
 G_block = tac_v8(
           Obs.transpose(2, 0, 1),
           taps=16,

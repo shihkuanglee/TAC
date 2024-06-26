@@ -1,6 +1,1 @@
-numpy
-tqdm
-soundfile
-bottleneck
-click
-scipy
+nara_wpe >= 0.0.10
